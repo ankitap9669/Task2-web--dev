@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+   
+    background-color: #222;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    background-color:white;
+    width:90%;
+    height: 90vh;
+    
+}
+
+.nav{
+    width:90%;
+    height: 13vh;
+    margin: auto;
+    
+}
+.nav .logo {
+    height: 50px;
+    width: 50px;
+    background-color:transparent;
+    border:2px solid  #ade2ce;
+    border-radius: 50%;
+    border-right-color: transparent;
+    margin-top: 15px;
+    font-size: 30px ;
+    position: relative;
+}
+.nav .logo::before{
+    content:"Nykaa";
+    font-size: 20px;
+    color:black;
+    font-style:italic;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-10%,-50%);
+    
+}
+
+.nav ,.list{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   transition: all 1s ease-in;
+  
+}
+.list li{
+    padding: 15px;
+    list-style-type: none;
+    font-weight: 500;
+}
+.list li a{
+    text-decoration: none;
+    color:black;
+  
+}
+ li a:hover{
+    background-color: cadetblue;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+  
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:50px;    
+}
+.img img{
+    width:45vw;
+    height:300px ;
+}
+ 
+.product{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    padding:20px 30px;
+}
+
+.product h4{
+  letter-spacing: 2px;
+  color: #0a6242;
+  font-size: 20px;
+}
+
+.product h2{
+    font-size: 30px;
+    color: rgb(133, 201, 223);
+
+    }
+    .product p{
+        color: black;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight:bold;
+    }
+    .product button{
+        background-color: rgb(133, 201, 223);
+        color:black;
+        margin: 10px;
+        padding: 10px;
+        transition: all 0.5s 0.7s ease-in;
+
+    }
+    .product button:hover{
+        background-color:rgb(17, 17, 98) ;
+        color: white;
+        font-size: 15px;
+    }
+
+    footer {
+        background-color:#333;
+        color: #fff;
+      }
+      
+      .footer-content {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0;
+      }
+      
+      .footer-section {
+        flex: 1;
+        padding: 0 20px;
+      }
+      
+      .footer-section h3 {
+        color: #fff;
+      }
+      
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-section ul li {
+        margin-bottom: 10px;
+      }
+      
+      .footer-section ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .footer-bottom {
+        background-color: #222;
+        text-align: center;
+        padding: 10px 0;
+      }
